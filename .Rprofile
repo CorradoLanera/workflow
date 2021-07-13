@@ -5,6 +5,7 @@ if (interactive()) {
         library(devtools)
         library(lintr)
         library(spelling)
+        library(testthat)
         library(usethis)
     }))
 }
