@@ -7,10 +7,16 @@ Authors@R:
            role = c("aut", "cre"),
            email = "corrado.lanera@gmail.com",
            comment = c(ORCID = "0000-0002-0520-7428", url = "https://www.corradolanera.it"))
-Description: Provide incremental steps to develop a long lasting 
-  reproducible analyses from small to big projects.
+Description: Provide incremental steps to develop a long lasting
+    reproducible analyses from small to big projects.
 License: CC BY 4.0
+Suggests: 
+    devtools,
+    lintr,
+    spelling,
+    usethis
 Encoding: UTF-8
+Language: en-US
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
