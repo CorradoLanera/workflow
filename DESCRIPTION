@@ -10,6 +10,9 @@ Authors@R:
 Description: Provide incremental steps to develop a long lasting
     reproducible analyses from small to big projects.
 License: CC BY 4.0
+Imports: 
+    targets (>= 0.5.0.9002),
+    visNetwork
 Suggests: 
     devtools,
     lintr,
@@ -17,6 +20,8 @@ Suggests:
     testthat (>= 3.0.0),
     usethis,
     withr
+Remotes: 
+    ropensci/targets
 Config/testthat/edition: 3
 Encoding: UTF-8
 Language: en-US
